@@ -8,7 +8,7 @@ const client = new Discord.Client();
 
 
  const devs = ['311603535466856458' , '' , ''];
-const adminprefix = "!";
+const adminprefix = "a";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
@@ -26,7 +26,7 @@ client.on('message', message => {
       message.channel.sendMessage(`**  ${argresult} ls .. :white_check_mark:**`)
   } else 
   if (message.content.startsWith(adminprefix + 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/muuuuuute");
+    client.user.setGame(argresult, "https://www.twitch.tv/By_Adam");
       message.channel.sendMessage(`**  ${argresult} st .. :white_check_mark:**`)
     }
   if (message.content.startsWith(adminprefix + 'us')) {
@@ -38,4 +38,4 @@ client.on('message', message => {
     message.channel.send(`**avatar ... :** `);
   }
   });
-client.login("توكن")
+client.login("MzExNjAzNTM1NDY2ODU2NDU4.Dt1IsQ.t1MjpiEAejthd2eU4ayxJNF1Ua0")
