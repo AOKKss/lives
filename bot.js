@@ -7,7 +7,7 @@ const client = new Discord.Client();
 
 
 
- const devs = ['' , '459494280193507338' , ''];
+ const devs = ['311603535466856458' , '' , ''];
 const adminprefix = "a";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
