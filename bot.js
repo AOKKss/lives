@@ -7,8 +7,8 @@ const client = new Discord.Client();
 
 
 
- const devs = ['311603535466856458' , '' , ''];
-const adminprefix = "a";
+ const devs = ['256447238698434562', '532712973467123712' , ''];
+const adminprefix = "w";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
@@ -38,4 +38,4 @@ client.on('message', message => {
     message.channel.send(`**avatar ... :** `);
   }
   });
-client.login("MzExNjAzNTM1NDY2ODU2NDU4.Dv6vSQ.cvbQ4sz7lNGIQVWy7uHiozs8Qk4")
+client.login("MjU2NDQ3MjM4Njk4NDM0NTYy.DxzQ7Q.HCRbAYwNsfzSrdOVB69o6LXQ9yI")
